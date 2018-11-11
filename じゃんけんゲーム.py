@@ -19,14 +19,14 @@ while True:
     # 手を表示
     print("---")
     print("自分:", hand[you])
-    print("相手:", hand[com])
+    print("相手:", hand[com])お主
     input("---")
     # じゃんけんの勝敗を判定する
     j = (you - com + 3) % 3
     if j == 0:
-        print (" あいこ")
+        print (" なかなかやるな")
     elif j == 1:
-        print("負け(ToT)")
+        print("お前の負けだ")
     else:
-        print("勝ち!!!")
+        print("吾輩がまけるだと...")
     input("---")
