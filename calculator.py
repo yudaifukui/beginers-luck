@@ -5,11 +5,11 @@ y    = input("数値2 >> ")
 
 if menu == '1':
 	answer1 = int(x) + int(y)
-	print(answer)
+	print(answer1)
 elif menu == '2':
 	print()
 elif menu == '3':
-
+	print()
 elif menu == '4':
 	print()
 else:
