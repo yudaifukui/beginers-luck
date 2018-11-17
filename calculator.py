@@ -4,6 +4,9 @@ def square(x):
 	ans = x * x
 	return ans
 
+def devide(a,b):
+	return a / b
+
 print("2つの数値の計算を行います")
 menu = input("メニュー 1:足し算 2：引き算 3：掛け算 4：割り算 5：√ 6：二乗 >> ")
 x    = input("数値1(整数) >> ")
@@ -14,12 +17,14 @@ if menu == '1':
 	answer1 = int(x) + int(y)
 	print(answer1)
 elif menu == '2':
-	print()
+	answer2 = int(x) - int(y)
+	print(answer2)
 elif menu == '3':
 	answer3 = int(x) * int(y)
 	print(answer3)
 elif menu == '4':
-	print()
+	F = devide(int(x),int(y))
+	print(F)
 elif menu == '5':
 	answer_x = math.sqrt(int(x))
 	answer_y = math.sqrt(int(y))
@@ -31,4 +36,4 @@ elif menu == '6':
 	print('数値1:',answer_x)
 	print('数値2:',answer_y)
 else:
-	print("エラー：入力できる数値は1~5です")
+	print("エラー：入力できる数値は1~6です")
