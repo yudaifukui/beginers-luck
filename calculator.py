@@ -4,12 +4,13 @@ x    = input("数値1 >> ")
 y    = input("数値2 >> ") 
 
 if menu == '1':
-	sum = int(x) + int(y)
-	print(sum)
+	answer1 = int(x) + int(y)
+	print(answer)
 elif menu == '2':
 	print()
 elif menu == '3':
-	print()
+	answer3 = int(x) * int(y)
+	print(answer3)
 elif menu == '4':
 	print()
 else:
