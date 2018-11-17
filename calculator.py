@@ -9,7 +9,8 @@ if menu == '1':
 elif menu == '2':
 	print()
 elif menu == '3':
-	print()
+	answer3 = int(x) * int(y)
+	print(answer3)
 elif menu == '4':
 	print()
 else:
