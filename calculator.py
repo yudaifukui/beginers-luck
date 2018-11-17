@@ -7,10 +7,13 @@ if menu == '1':
 	sum = int(x) + int(y)
 	print(sum)
 elif menu == '2':
-	print()
+    answer2	=int(x) - int(y)
+	print(answer2)
 elif menu == '3':
 	print()
 elif menu == '4':
-	print()
+	def answer4(a,b)
+	print(a / b)
+print answer4
 else:
 	print("エラー：入力できる数値は1~4です")
